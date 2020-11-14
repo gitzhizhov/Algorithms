@@ -26,7 +26,7 @@ namespace Task_11
                 a = Convert.ToInt32(Console.ReadLine());
                 if (a == 0)
                     break;
-                if (a > 0 || a % 2 == 0 || a == 8 || a % 10 == 8)
+                if (a > 0 && a % 2 == 0 && a == 8 && a % 10 == 8)
                 {
                     sum += a;
                     count++;
